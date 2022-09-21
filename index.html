@@ -6,25 +6,24 @@
   </head>
   <body>
     <h1> Volunteer Form </h1>
-    <fieldset>
-      <h3>My Info</h3>
       <br>
-    <form method="post">
-      <label for="fname">First Name:</label>
-      <input type="text" id="fname" name="fname"><br><br>
-      <label for="lname">Last Name:</label>
-      <input type="text" id="lname" name="lname"><br><br>
-      <label for="pnumber">Phone Number:</label>
-      <input type="text" id="pnumber" name="lname"><br><br>
-      <label for="eaddress">Email Address:</label>
-      <input type="text" id="eaddress" name="eaddress"><br><br>
-      <label for="gender">Gender:</label>
-      <input type="radio" id="gender" name="gender" value="male">
-      <label for="male">Male</label>
-      <input type="radio" id="gender" name="gender" value="female">
-      <label for="female">Female</label><br><br>
-      <label for="age">Age:</label>
-      <select name="cars" id="cars">
+    <form method="post" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" name="userinfo">
+      <fieldset>
+        <legend>My Info</legend>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="pnumber">Phone Number:</label>
+        <input type="text" id="pnumber" name="lname"><br><br>
+        <label for="eaddress">Email Address:</label>
+        <input type="text" id="eaddress" name="eaddress"><br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="gender" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        <label for="age">Age:</label>
         <option value="under18">under 18</option>
         <option value="18-24">18-24</option>
         <option value="25-34">25-34</option>
@@ -32,35 +31,29 @@
         <option value="45-54">45-54</option>
         <option value="55-64">55-64</option>
         <option value="65up">65 and over</option>
-      </select>
       </fieldset>
-    </form>
-    <br>
-    <h3>My Availability</h3 >
-    <form method="post">
       <fieldset>
-      <br>
-      <label for="availability">Days Available:</label><br>
-      <input type="checkbox" id="availability" name="availability" value="Sunday">
-      <label for="Sunday">Sunday</label><br>
-      <input type="checkbox" id="availability" name="availability" value="Monday">
-      <label for="Monday">Monday</label><br>
-      <input type="checkbox" id="availability" name="availability" value="Tuesday">
-      <label for="Tuesday">Tuesday</label><br>
-      <input type="checkbox" id="availability" name="availability" value="Wednesday">
-      <label for="Wednesday">Wednesday</label><br>
-      <input type="checkbox" id="availability" name="availability" value="Thursday">
-      <label for="Thursday">Thursday</label><br>
-      <input type="checkbox" id="availability" name="availability" value="Friday">
-      <label for="Friday">Friday</label><br>
-      <input type="checkbox" id="availability" name="availability" value="Saturday">
-      <label for="Saturday">Saturday</label>
-      <br>
-      <label for="comments">Any Comments?</label><br>
-      <textarea name="comments" cols="20" rows="5"></textarea>
+        <legend>My Availability</legend>
+        <br>
+        <label for="availability">Days Available:</label><br>
+        <input type="checkbox" id="availability" name="availability" value="Sunday">
+        <label for="Sunday">Sunday</label><br>
+        <input type="checkbox" id="availability" name="availability" value="Monday">
+        <label for="Monday">Monday</label><br>
+        <input type="checkbox" id="availability" name="availability" value="Tuesday">
+        <label for="Tuesday">Tuesday</label><br>
+        <input type="checkbox" id="availability" name="availability" value="Wednesday">
+        <label for="Wednesday">Wednesday</label><br>
+        <input type="checkbox" id="availability" name="availability" value="Thursday">
+        <label for="Thursday">Thursday</label><br>
+        <input type="checkbox" id="availability" name="availability" value="Friday">
+        <label for="Friday">Friday</label><br>
+        <input type="checkbox" id="availability" name="availability" value="Saturday">
+        <label for="Saturday">Saturday</label>
+        <br>
+        <label for="comments">Any Comments?</label><br>
+        <textarea name="comments" cols="20" rows="5"></textarea>
       </fieldset>
-    </form>
-    <form
       <fieldset>
         <input type="submit" value="Send Me">
       </fieldset>
