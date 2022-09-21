@@ -11,31 +11,31 @@
       <fieldset>
         <legend>My Info</legend>
         <div>
-          <label for="fname">First Name:</label>
-          <input type="text" id="fname" name="fname">
+          <label for="first_name_field">First Name:</label>
+          <input type="text" id="first_name_field" name="first_name_field">
         </div>
         <div>
-          <label for="lname">Last Name:</label>
-          <input type="text" id="lname" name="lname">
+          <label for="last_name_field">Last Name:</label>
+          <input type="text" id="last_name_field" name="last_name_field">
         </div>
         <div>
-          <label for="pnumber">Phone Number:</label>
-          <input type="text" id="pnumber" name="lname">
+          <label for="phone_field">Phone Number:</label>
+          <input type="text" id="phone_field" name="phone_field">
         </div>
         <div>
-          <label for="eaddress">Email Address:</label>
-          <input type="text" id="eaddress" name="eaddress">
+          <label for="email_field">Email Address:</label>
+          <input type="text" id="email_field" name="email_field">
         </div>
         <div>
-          <label for="gender">Gender:</label>
-          <input type="radio" id="gender" name="gender" value="male">
+          <label for="gender_field">Gender:</label>
+          <input type="radio" id="gender_field" name="gender_field" value="male">
           <label for="male">Male</label>
-          <input type="radio" id="gender" name="gender" value="female">
+          <input type="radio" id="gender_field" name="gender_field" value="female">
           <label for="female">Female</label>
         </div>
         <div>
-          <label for="age">Age:</label>
-          <select id="age" name="age">
+          <label for="age_field">Age:</label>
+          <select id="age_field" name="age_field">
             <option value="under18">under 18</option>
             <option value="18-24">18-24</option>
             <option value="25-34">25-34</option>
@@ -49,42 +49,45 @@
       <fieldset>
         <legend>My Availability</legend>
         <div>
-          <label for="availability">Days Available:</label>
+          <label for="available_field[]">Days Available:</label>
         </div>
         <div>
-          <input type="checkbox" id="availability" name="availability" value="Sunday">
+          <input type="checkbox" id="available_field[]" name="available_field[]" value="Sunday">
           <label for="Sunday">Sunday</label><
         </div>
         <div>
-          <input type="checkbox" id="availability" name="availability" value="Monday">
+          <input type="checkbox" id="available_field[]" name="available_field[]" value="Monday">
           <label for="Monday">Monday</label>
         </div>
         <div>
-          <input type="checkbox" id="availability" name="availability" value="Tuesday">
+          <input type="checkbox" id="available_field[]" name="available_field[]" value="Tuesday">
           <label for="Tuesday">Tuesday</label>
         </div>
         <div>
-          <input type="checkbox" id="availability" name="availability" value="Wednesday">
+          <input type="checkbox" id="available_field[]" name="available_field[]" value="Wednesday">
           <label for="Wednesday">Wednesday</label>
         </div>
         <div>
-          <input type="checkbox" id="availability" name="availability" value="Thursday">
+          <input type="checkbox" id="available_field[]" name="available_field[]" value="Thursday">
           <label for="Thursday">Thursday</label>
         </div>
         <div>
-          <input type="checkbox" id="availability" name="availability" value="Friday">
+          <input type="checkbox" id="available_field[]" name="available_field[]" value="Friday">
           <label for="Friday">Friday</label>
         </div>
         <div>
-          <input type="checkbox" id="availability" name="availability" value="Saturday">
+          <input type="checkbox" id="available_field[]" name="available_field[]" value="Saturday">
           <label for="Saturday">Saturday</label>
         </div>
         <div>
-          <label for="comments">Any Comments?</label>
-          <textarea name="comments" cols="20" rows="5"></textarea>
+          <label for="comments_field">Any Comments?</label>
+          <textarea name="comments_field" cols="20" rows="5"></textarea>
         </div>
       </fieldset>
-        <input type="submit" value="Send Me">
+      <div>
+        <input type="hidden" name="hidden_field" value="jfabrycky">
+      </div>
+      <input type="submit" value="Send Me">
     </form>
   </body>
 </html>
